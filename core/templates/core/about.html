@@ -1,0 +1,26 @@
+{% extends 'core/base.html' %}
+
+{% load static %}
+
+{% block title %}Historia{% endblock %}
+
+{% block content %}
+<section class="page-section about-heading">
+  <div class="container">
+    <img class="img-fluid rounded about-heading-img mb-3 mb-lg-0" src="{% static 'core/img/about.jpg' %}" alt="">
+    <div class="about-heading-content">
+      <div class="row">
+        <div class="col-xl-9 col-lg-10 mx-auto">
+          <div class="bg-faded rounded p-5">
+            <h2 class="section-heading mb-4">
+              <span class="section-heading-upper">Tradición familiar venezolana</span>
+              <span class="section-heading-lower">Nuestra historia</span>
+            </h2>
+            <p>Fundada en 1987 por Emilia Reyes quien residia en Italia pero se muda a Venezuela y crea su venta de postres, que era lo que anteriormente vendia en Italia, pasan 3 años y se casa Rodrigo Martines quien tambien es venezolano y era vendedor de cafe en las calles de Coro, y desde alli no solamente vendian postes sino que tambien añadieron los cafes. Hoy en dia los encargados del negocio son sus hijos quies te invitan a disfrutar de los mejores postres y cafes de la ciudad.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}
